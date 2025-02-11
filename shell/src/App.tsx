@@ -1,11 +1,13 @@
 import './App.css';
+// The remote component provided by federation_provider
+import ProviderButton from 'container/button';
+import ProviderHeader from 'container/header';
 
 const App = () => {
   return (
-    <div className="content">
-      <h1>Rsbuild with React</h1>
-      <p>Start building amazing things with Rsbuild.</p>
-    </div>
+      <div>
+        <ProviderHeader />
+      </div>
   );
 };
 
