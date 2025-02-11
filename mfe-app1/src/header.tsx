@@ -1,3 +1,5 @@
+import "./header.css"
+
 export default function myheader() {
-    return <div>Header bar</div>;
+    return <div className="nav-bar">Header bar</div>;
   }

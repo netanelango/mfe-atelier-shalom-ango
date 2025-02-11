@@ -1,0 +1,10 @@
+.nav-bar{
+    background-color: white;
+    color: #101725;
+    width: 80%;
+    margin: auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
