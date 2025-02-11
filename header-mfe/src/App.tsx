@@ -1,7 +1,7 @@
 import './App.css';
 // The remote component provided by federation_provider
-import ProviderButton from 'myprovider/button';
-import ProviderHeader from 'myprovider/header';
+import ProviderButton from 'container/button';
+import ProviderHeader from 'container/header';
 
 const App = () => {
   return (

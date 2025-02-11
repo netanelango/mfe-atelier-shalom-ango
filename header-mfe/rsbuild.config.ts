@@ -6,15 +6,15 @@ export default defineConfig({
   plugins: [
     pluginReact(),
     pluginModuleFederation({
-      name: 'myprovider',
-      exposes: {
-        './button': './src/button.tsx',
-        './header': './src/header.tsx',
+      name: 'federation_consumer',
+      remotes: {
+        container:
+          'container@http://localhost:3000/mf-manifest.json',
       },
       shared: ['react', 'react-dom'],
     }),
   ],
   server: {
-    port: 3000,
+    port: 2000,
   },
 });
